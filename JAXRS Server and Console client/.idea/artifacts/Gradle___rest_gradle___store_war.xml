@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : rest-gradle : store.war">
+    <output-path>$PROJECT_DIR$/service/build/libs</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$/service" />
+    </properties>
+    <root id="archive" name="store.war">
+      <element id="artifact" artifact-name="Gradle : rest-gradle : store.war (exploded)" />
+    </root>
+  </artifact>
+</component>

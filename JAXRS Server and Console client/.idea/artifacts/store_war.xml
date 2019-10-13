@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="store:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/store_war</output-path>
+    <root id="archive" name="store_war.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="service - Tomcat" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="activation-1.1.1" />
+          <element id="library" level="project" name="jersey" />
+        </element>
+        <element id="file-copy" path="$PROJECT_DIR$/service - tomcat/web/WEB-INF/web.xml" />
+      </element>
+    </root>
+  </artifact>
+</component>
